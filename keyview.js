@@ -4,6 +4,8 @@ var pedal = ipedal.client('http://localhost:10001/')
 
 var keypress = require('keypress')
 var times = []
+var message = process.env.KEYVIEW_MESSAGE ||
+  'Change this message by setting KEYVIEW_MESSAGE environment variable.'
 
 keypress(process.stdin)
 
@@ -60,7 +62,7 @@ pedal.on('down', function() {
 
 pedal.on('up', function() {
   process.stdout.write('\x1B[H\x1B[J')
-  process.stdout.write('\x1b[1;38;5;247mhttp://bit.ly/bcbk4vim ')
+  process.stdout.write('\x1b[1;38;5;247m' + message)
   stack = []
 })
 

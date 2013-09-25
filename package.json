@@ -1,0 +1,22 @@
+{
+  "name": "keyview",
+  "version": "0.0.0",
+  "description": "Terminal key viewer (used in BarCamp Bangkhen 4)",
+  "main": "keyview.js",
+  "dependencies": {
+    "express": "~3.4.0",
+    "keypress": "~0.2.1",
+    "ipedal": "~0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dtinth/keyview.git"
+  },
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com>",
+  "license": "MIT",
+  "gitHead": "a86b6aaa9c854afe608a0746244dd33981be8c79"
+}
