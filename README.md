@@ -48,8 +48,8 @@ Then, open tmux and enter this tmux command:
 
     :set synchronize-panes
 
-So that when you have multiple panes, the keystrokes will be sent to
-both panes.
+So that [when you have multiple panes, the keystrokes will be sent to
+both panes](http://blog.sanctum.geek.nz/sync-tmux-panes/).
 
     :splitw 'KEYVIEW_MESSAGE="hello world" node /path/to/keyview/keyview.js'
 
